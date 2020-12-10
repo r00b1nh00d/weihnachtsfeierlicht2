@@ -72,7 +72,6 @@ basic.forever(function () {
         strip.setPixelColor(48 - Index2, neopixel.hsl(60 + Index2 * 60, 100, 20))
     }
     strip.show()
-    serial.writeLine("" + (aktueller_Messwert))
     basic.pause(10)
 })
 
