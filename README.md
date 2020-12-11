@@ -43,7 +43,7 @@ basic.forever(function () {
 ``` 
 ## Schritt 3
 Für die Animation soll erstmal der Strip ``||neopixel.strip:ausgeschaltet||`` werden. <br>
-Anschließend muss in je einer ``||loops:index-Schleife||`` die Farbe an der Index Position, bzw. von der anderen Seite gesehen am maximalen Pixel minus des Indexes eingestellt werden. Du kannst hier eine einfarbige Farbe nehmen oder mit dem ``||neopixel.strip:HSL Farbwert||`` die Pixel in unterschiedlichen Farben leuchten lassen.
+Anschließend muss in je einer ``||loops:index-Schleife||`` die Farbe an der Index Position, bzw. von der anderen Seite gesehen am maximalen Pixel minus des Indexes eingestellt werden. Du kannst hier eine einfarbige Farbe nehmen oder mit dem ``||neopixel.strip:HSL Farbwert||`` die Pixel in unterschiedlichen Farben leuchten lassen. <br>
 **Zum einstellen der HSL-Einfärbung kannst du für die Sättigung eine 100 eintragen, für die Helligkeit eine 20 und den Farbwert beispielsweise mit der Formel 60 +(Index x 60) berechnen lassen**
 
 
